@@ -2,47 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Demo - Turnover Chat</title>
-    <style>
-        /* Add your CSS here for layout and styling */
-        .container { display: flex; height: 90vh; }
-        .left, .right { width: 20%; }
-        .chat { flex-grow: 1; display: flex; flex-direction: column; }
-        .chat-window { flex-grow: 1; }
-        .user-list, .plugin-list, .position-list, .file-drop { margin-top: 20px; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat Application</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <div class="left">
-        <h2>Company Name</h2>
-        <div class="position-list">
-            <!-- Dynamically list positions -->
-        </div>
-        <div class="file-drop">
-            <!-- File drop area -->
-        </div>
+    <div id="chatContainer">
+        <div id="chatWindow"></div>
+        <textarea id="messageInput" placeholder="Type your message here..."></textarea>
+        <button id="sendMessage">Send</button>
+        <button id="chime">Chime</button>
     </div>
-    <div class="chat">
-        <div class="chat-window">
-            <!-- Chat messages -->
-        </div>
-        <input type="text" placeholder="Type a message..." />
-    </div>
-    <div class="right">
-        <h2>Chat Room Title</h2>
-        <div class="user-list">
-            <!-- List of users -->
-        </div>
-        <div class="plugin-list">
-            <!-- List plugins with query buttons -->
-        </div>
-    </div>
-</div>
-<script>
-    // JavaScript for handling WebSocket connections, OpenAI API requests, and dynamic content updates
-</script>
+    <script src="script.js"></script>
 </body>
 </html>
