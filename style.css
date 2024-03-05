@@ -1,0 +1,21 @@
+#chatContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+#chatWindow {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#messageInput {
+    width: calc(100% - 90px);
+    margin-right: 10px;
+}
+#sendMessage, #chime {
+    width: 80px;
+}
