@@ -1,21 +1,65 @@
-#chatContainer {
-    width: 100%;
-    max-width: 600px;
-    margin: auto;
-    border: 1px solid #ddd;
-    padding: 20px;
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-#chatWindow {
-    height: 400px;
-    overflow-y: scroll;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-    padding: 10px;
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
 }
-#messageInput {
-    width: calc(100% - 90px);
+
+header {
+    background-color: #ececec;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
     margin-right: 10px;
 }
-#sendMessage, #chime {
-    width: 80px;
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    color: #545454;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ececec;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Adding specific styles from the business card */
+header, footer {
+    background-color: #c0a080; /* light brown */
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+h1, h2 {
+    color: #d4af37; /* golden text */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
 }
