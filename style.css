@@ -1,16 +1,16 @@
 /* Main styling for ProjectPortcall */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #E8F5E9; /* Light mint green background for freshness */
-    color: #205723; /* Dark green for excellent readability */
+    background-color: #F5F5F5; /* Very light grey for a clean and neutral background */
+    color: #333; /* Nearly black for strong contrast and readability */
     line-height: 1.6;
 }
 
 .container-fluid {
-    background-color: #388E3C; /* Rich green for the header */
-    color: white;
+    background-color: #FFFFFF; /* Pure white for headers and footers */
+    color: #333; /* Dark text for clear readability */
     padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Soft shadow for a slight depth */
 }
 
 nav ul {
@@ -25,12 +25,13 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
+    color: #555; /* Slightly lighter grey for hover effect */
     text-decoration: underline;
 }
 
@@ -43,12 +44,12 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #388E3C; /* Same rich green as header */
-    color: white;
+    background-color: #FFFFFF; /* Consistent with the header for a cohesive look */
+    color: #333;
 }
 
 h2, h3 {
-    color: #43A047; /* Slightly lighter green for headers to stand out */
+    color: #444; /* Soft black for headings to reduce harshness */
 }
 
 figure img {
@@ -59,7 +60,7 @@ figure img {
 
 figcaption {
     margin-top: 8px;
-    color: #205723; /* Dark green for readability */
+    color: #666; /* Dark gray for readability */
 }
 
 /* Responsive tweaks */
