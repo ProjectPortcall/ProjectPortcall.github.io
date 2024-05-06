@@ -2,31 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProjectPortcall - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>ProjectPortcall</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to ProjectPortcall</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="mission.html">Our Mission</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <h2>Artisan Flavor Imports</h2>
-            <p>We bring the finest food products from around the globe right to your doorstep.</p>
-        </section>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>ProjectPortcall</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="contact.html" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Welcome to ProjectPortcall</h2>
+                    <h3>Your gateway to the world's finest artisan flavors</h3>
+                </hgroup>
+                <p>Discover a world of exceptional flavors brought directly to your doorstep. We partner with passionate artisan food producers across the globe to offer you the finest culinary ingredients.</p>
+                <figure>
+                    <img src="example-image.jpg" alt="Assortment of artisan foods">
+                    <figcaption>Explore our unique collection.</figcaption>
+                </figure>
+            </section>
+        </div>
     </main>
-    <footer>
-        <p>© 2024 ProjectPortcall. All rights reserved.</p>
+    <footer class="container">
+        <small>
+            <a href="about.html">About Us</a> • 
+            <a href="contact.html">Contact</a>
+        </small>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
