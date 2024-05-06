@@ -1,13 +1,16 @@
 /* Main styling for ProjectPortcall */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f4f1ea;
-    color: #333;
+    background-color: #E8F5E9; /* Light mint green background for freshness */
+    color: #205723; /* Dark green for excellent readability */
+    line-height: 1.6;
 }
 
 .container-fluid {
-    background-color: #cba465;
+    background-color: #388E3C; /* Rich green for the header */
     color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 nav ul {
@@ -40,12 +43,12 @@ footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
-    background-color: #cba465;
+    background-color: #388E3C; /* Same rich green as header */
     color: white;
 }
 
 h2, h3 {
-    color: #5a3921;
+    color: #43A047; /* Slightly lighter green for headers to stand out */
 }
 
 figure img {
@@ -56,6 +59,7 @@ figure img {
 
 figcaption {
     margin-top: 8px;
+    color: #205723; /* Dark green for readability */
 }
 
 /* Responsive tweaks */
