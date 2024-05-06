@@ -46,10 +46,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 ProjectPortcall - projectportcall@gmail.com
-
-### Notes:
-- **Repository URL**: You should replace `https://github.com/yourusername/projectportcall.git` with the actual URL of your GitHub repository.
-- **License**: I assumed the MIT License, which is common for open-source projects, but please adjust as necessary based on your actual licensing.
-- **Project Link**: Again, adjust the URL to point to the correct repository.
-
-Let me know if you need further customizations or additional sections!
