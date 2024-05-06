@@ -2,20 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - ProjectPortcall@gmail.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Contact Us - ProjectPortcall</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="mission.html">Our Mission</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-       
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>ProjectPortcall</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="contact.html" role="button">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Contact Us</h2>
+                    <h3>We'd love to hear from you!</h3>
+                </hgroup>
+                <p>Please fill out the form below or reach out via email or phone. We're here to answer your questions and provide support.</p>
+                <form class="grid" action="#" method="post">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Your Email" required>
+                    <textarea name="message" id="message" rows="4" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                    <button type="submit" onclick="event.preventDefault(); alert('Thank you for contacting us!');">Send Message</button>
+                </form>
+                <h3>Other Ways to Reach Us</h3>
+                <p>Phone: +1 234-567-890</p>
+                <p>Email: <a href="mailto:info@projectportcall.com">info@projectportcall.com</a></p>
+                <p>Address: 123 Flavor St., Taste City, Yum 78901</p>
+            </section>
+        </div>
+    </main>
+    <footer class="container">
+        <small>
+            <a href="about.html">About Us</a> • 
+            <a href="contact.html">Contact</a>
+        </small>
+    </footer>
+</body>
+</html>
