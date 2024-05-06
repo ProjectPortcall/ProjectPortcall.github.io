@@ -1,65 +1,67 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Main styling for ProjectPortcall */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f1ea;
     color: #333;
-    background-color: #f4f4f4;
 }
 
-header {
-    background-color: #ececec;
-    padding: 10px 20px;
-    text-align: center;
+.container-fluid {
+    background-color: #cba465;
+    color: white;
 }
 
 nav ul {
-    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 nav a {
+    color: white;
     text-decoration: none;
-    color: #333;
+    font-weight: bold;
 }
 
-h1, h2 {
-    color: #545454;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #ececec;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Adding specific styles from the business card */
-header, footer {
-    background-color: #c0a080; /* light brown */
-    color: white;
-}
-
-nav a {
-    color: white;
-}
-
-h1, h2 {
-    color: #d4af37; /* golden text */
+nav a:hover {
+    text-decoration: underline;
 }
 
 main {
     padding: 20px;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #cba465;
+    color: white;
+}
+
+h2, h3 {
+    color: #5a3921;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 8px;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
