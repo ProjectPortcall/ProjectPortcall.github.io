@@ -1,30 +1,55 @@
-# Turnover
+# ProjectPortcall Website
 
-## Introduction
-Turnover is an innovative solution designed to address the challenges companies face during job transitions. Powered by OpenAI, Turnover facilitates seamless knowledge transfer between outgoing and incoming employees, ensuring that critical information and expertise remain within the company. This platform aids in minimizing knowledge loss, streamlining the onboarding process, and significantly reducing training time for new hires.
+Welcome to the repository for ProjectPortcall, a company specializing in artisan flavor imports from all around the globe. This repository contains the source code for our official website, which includes detailed information about our services, mission, and contact details.
 
-## Features
-- **Multi-user ChatGPT Interface**: Allows multiple users to engage in collaborative conversations with the AI, enhancing real-time knowledge transfer.
-- **Contextual Knowledge Integration**: Integrates organizational documents into conversations, enabling AI to provide context-specific information.
-- **Dynamic Knowledge Base**: Continuously updates the system with new documents and conversations, improving the AI's performance over time.
-- **Streamlined Onboarding and Training**: Offers a centralized platform for efficient learning and adaptation to new roles.
+## Description
 
-## How to Use
-This repository contains the HTML files for the Turnover project, including:
-- `index.html`: The homepage of the Turnover website.
-- `about.html`: Provides information about the Turnover project, its mission, vision, and history.
-- `features.html`: Describes the key features and benefits of using Turnover.
-- `contact.html`: Lists contact information for users to reach out with questions or feedback.
+ProjectPortcall connects passionate artisan food producers with consumers who care deeply about the quality and origins of their ingredients. Our website serves as a gateway to explore our product offerings, understand our mission, and get in touch with our team.
 
-To view these pages in your browser, clone the repository and open the HTML files locally. Alternatively, you can host these files on a web server or a platform like GitHub Pages to make the site publicly accessible.
+## Structure
+
+- `index.html`: The main landing page of the website.
+- `about.html`: Provides information about ProjectPortcall, including our history and values.
+- `mission.html`: Details the threefold mission of our company.
+- `contact.html`: Contains a form and contact details for reaching out to us.
+- `style.css`: Contains the styles for the website, ensuring a warm and modern artisan look.
+- `script.js`: Handles the form submission on the contact page.
+
+## Setup
+
+To set up the website locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ProjectPortcall/ProjectPortcall.github.io/edit/
+   ```
+2. Navigate to the repository directory:
+   ```bash
+   cd projectportcall
+   ```
+3. Open the `index.html` in your browser to view the website.
 
 ## Contributing
-We welcome contributions to the Turnover project! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-For any questions or feedback, please reach out to us at [go@turnover-ai.com](mailto:go@turnover-ai.com).
 
-Thank you for exploring Turnover. We're excited to see how it can support your organization's knowledge transfer and retention efforts!
+ProjectPortcall - projectportcall@gmail.com
+
+### Notes:
+- **Repository URL**: You should replace `https://github.com/yourusername/projectportcall.git` with the actual URL of your GitHub repository.
+- **License**: I assumed the MIT License, which is common for open-source projects, but please adjust as necessary based on your actual licensing.
+- **Project Link**: Again, adjust the URL to point to the correct repository.
+
+Let me know if you need further customizations or additional sections!
